@@ -1,0 +1,26 @@
+.h-wrapper{
+    background-color: var(--green);
+    color: var(--black);
+    box-shadow: 0px 5px 15px 1px var(--green);
+}
+.h-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: var(--secondary);
+}
+.h-menu{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+

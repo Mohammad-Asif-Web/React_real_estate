@@ -1,0 +1,17 @@
+.c-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    /* overflow: hidden; */
+}
+.c-container>img{
+    width: 9rem;
+}
+.c-container>img:hover{
+    cursor: pointer;
+    filter: invert(1)
+}
+
+
+
