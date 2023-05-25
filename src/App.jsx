@@ -7,8 +7,10 @@ function App() {
   return (
     <div>
       <Header />
+      {/* imported CountUp from 'react-countup'; */}
       <Hero />
       <Companies />
+      {/* imported {Swiper, SwiperSlide, useSwiper}  from 'swiper/react' */}
       <Residencies />
     </div>
   )
